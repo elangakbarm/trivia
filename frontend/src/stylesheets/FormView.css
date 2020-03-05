@@ -1,0 +1,32 @@
+.form-view > label {
+  padding: 0px 0px 10px;
+}
+
+#add-form {
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: right;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.inputs {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 5px;
+} 
+
+.selects {
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 5px;
+} 
