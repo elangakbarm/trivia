@@ -93,6 +93,7 @@ GET '/questions?page=number'
 - Request Arguments: Page Number
 - Returns: List of questions, number of total questions, current category and categories
 
+```
 {
   "categories": [
     {
@@ -196,7 +197,7 @@ GET '/questions?page=number'
   "success": true,
   "total_questions": 18
 }
-
+```
 DELETE 'questions/<question_id>'
 - Delete selected question
 - Request arguments: question id
